@@ -2,7 +2,10 @@
 //const divide = (p1,p2) => p1/p2; divide (2000,100)//this code returns correctly in repl
 //per repl divide() returns "NaN"
 
-const divide = (d,e) => d/e; divide(2000,100)
+//const divide = (d,e) => d/e; divide(2000,100)
+const divide = function(){
+    return 2000/100
+}
 
 const square = p => p*p; square(2)
 
